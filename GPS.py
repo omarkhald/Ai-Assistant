@@ -108,7 +108,3 @@ def analyze_text(text):
         if ent.label_ == 'GPE':  # 'GPE' stands for Geo-Political Entity, often a location
             process_location(ent.text)
 
-
-sample_text = input("me:")
-
-analyze_text(sample_text)
